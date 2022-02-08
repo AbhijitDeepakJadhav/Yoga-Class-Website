@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhi's Yoga | contact </title>
+
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="D:\complete web developement bootcamp\project\css\style.css">
+<!-- style reset -->
+<style>
+    /* .main {
+         position: fixed;
+    } */
+
+    body {
+        font-family: 'Baloo Tammudu 2', cursive;
+        margin: 0px;
+        margin-top: -13px;
+        padding: 0px;
+        background-image: url("/static/green-tea.webp");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        background-color: lightgrey;
+    }
+
+    .header {
+        top: 0px;
+        position: sticky;
+    }
+
+    .lft {
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        top: 10px;
+        left: 34px;
+        color: white;
+        /* border: 2px solid black; */
+        left: 60px
+    }
+
+    .lft img {
+        filter: invert(100%);
+        width: 34px;
+    }
+
+    .lft div {
+        line-height: 0px;
+    }
+
+    .mid {
+        display: block;
+        width: 100%;
+        height: 139px;
+        margin: 12px auto;
+        border: 2px solid grey;
+        background-color: grey;
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 12px;
+        display: inline-block;
+
+        color: white;
+    }
+
+    .navbar {
+        margin-left: 173px;
+        margin-top: 37px;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 26px;
+        border-radius: 20px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 0px 15px;
+        margin-bottom: 67px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+    }
+
+    /* .navbar li:hover {
+        background-color: red;
+    } */
+
+    .btn {
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: darkgrey;
+        cursor: pointer;
+    }
+
+    .cont {
+        /* border: 2px solid black; */
+        margin: 100px 162px;
+        padding: 2px 2px;
+        width: 39%;
+        height: 439px;
+        border-radius: 29px;
+        /* background-color: burlywood; */
+    }
+
+    .cont h1 {
+        font-size: 31px;
+        margin: auto;
+        display: table;
+    }
+
+    .form-group {
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        display: block;
+        width: 263px;
+        margin: 12px auto;
+        border: 2px solid black;
+        border-radius: 6px;
+        padding: 5px;
+        background-color: darkgray;
+        color: white;
+    }
+
+
+    .cont h1 {
+        text-align: center;
+    }
+
+    .cont button {
+        display: block;
+        font-weight: bold;
+        font-size: 18px;
+        height: 36px;
+        width: 26%;
+        margin: 30px auto;
+        border-radius: 6px;
+        background-color: black;
+        color: white;
+    }
+
+    .cont button:hover {
+        background-color: darkgray;
+        cursor: pointer;
+    }
+
+    .visit {
+        margin-top: 0px;
+        margin-left: 167px;
+    }
+
+    .sites li a img {
+        height: 110px;
+        margin-right: 20px;
+    }
+
+    .sites li {
+        list-style: none;
+    }
+
+    .visit h4 {
+        font-size: 45px;
+        margin-bottom: 0px;
+    }
+
+    .sites {
+        display: inline-flex;
+        flex-direction: row;
+    }
+
+    footer {
+        display: flex;
+        height: 5vh;
+        background-color: black;
+        color: white;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+    }
+</style>
+
+
+<body>
+    <div class="main">
+        <header class="header">
+
+            <!-- left box for logo -->
+            <div class="lft">
+                <img src="/static/images-removebg.png" alt="">
+                <div>Abhi's Yoga</div>
+            </div>
+
+            <!-- mid for navigation -->
+            <div class="mid">
+                <ul class="navbar">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#social">About Us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="/fcalci">Fitness Calculator</a></li>
+                </ul>
+            </div>
+
+            <!-- right box for buttons -->
+            <div class="right">
+                <button class="btn">Call us now</button><button class="btn">Email us</button>
+            </div>
+
+        </header>
+
+        <div class="cont">
+            <h1>A step ahead to a healthy lifestyle....</h1>
+            <form action="/contact" , method="post">
+                <input type="text" , class="form-group" , name="Name" placeholder="Enter your Name">
+                <input type="text" , class="form-group" , name="Age" placeholder="Enter your Age">
+                <input type="text" , class="form-group" , name="Gender" placeholder="Enter your Gender">
+                <input type="text" , class="form-group" , name="Address" placeholder="Enter your Location">
+                <input type="text" , class="form-group" , name="Email" placeholder="Enter your E-mail ID">
+                <input type="text" , class="form-group" , name="ContactNumber" placeholder="Enter your Contact Number">
+                <button type="submit" ,class="btn">submit</button>
+            </form>
+
+        </div>
+
+        <div class="visit" id="social">
+            <h4>Our social media accounts</h4>
+
+            <section class="sites">
+                <li><a target="_blank" href="https://www.instagram.com/abhijit._1.jadhav/"><img src="/static/insta.webp"
+                            alt="error insta"></a></li>
+                <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100012181366579"><img
+                            src="/static/facebook-logo-removebg.png" alt="error facebook"></a></li>
+                <li><a target="_blank" target="_blank" href="https://www.linkedin.com/in/abhijit-jadhav-b36598171/"><img
+                            src="/static/linked-logo.png" alt="error linkedin"></a></li>
+                <li><a target="_blank" href="https://twitter.com/Jadhav_abhio01"><img src="/static/twitterlogo-removebg.png"
+                            alt="error twitter"></a></li>
+            </section>
+
+        </div>
+    </div>
+
+    <footer>
+        Copyright &copy; 2021 - All rights reserved by AbhisYoga.in
+    </footer>
+
+</body>
+
+<script src="app.js"></script>
+
+</html>

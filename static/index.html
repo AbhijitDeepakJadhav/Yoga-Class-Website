@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhi's Yoga </title>
+
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap" rel="stylesheet">
+
+<style>
+    /* .main {
+        position: fixed;
+    } */
+
+    body {
+        font-family: 'Baloo Tammudu 2', cursive;
+        margin: 0px;
+        margin-top: -13px;
+        padding: 0px;
+        /* background: url("https://cdn.pixabay.com/photo/2016/11/18/15/05/beach-1835213_1280.jpg")no-repeat center center/cover; */
+        /* background-image: url("https://cdn.pixabay.com/photo/2016/11/18/15/05/beach-1835213_1280.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover; */
+        height: 100%;
+        width: 100%;
+        background-color: lightgrey;
+    }
+
+    .header {
+        top: 0px;
+        position: sticky;
+    }
+
+    .lft {
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        top: 10px;
+        left: 34px;
+        color: white;
+        /* border: 2px solid black; */
+        left: 60px
+    }
+
+    .lft img {
+        filter: invert(100%);
+        width: 34px;
+    }
+
+    .lft div {
+        line-height: 0px;
+    }
+
+    .mid {
+        display: block;
+        width: 100%;
+        height: 139px;
+        margin: 12px auto;
+        border: 2px solid grey;
+        background-color: grey;
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 12px;
+        display: inline-block;
+
+        color: white;
+    }
+
+    .navbar {
+        margin-left: 173px;
+        margin-top: 37px;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 26px;
+        border-radius: 20px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 0px 15px;
+        margin-bottom: 67px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: darkgrey;
+        cursor: pointer;
+    }
+
+    section.intro {
+        margin-top: -14px;
+        height: 100%;
+        width: 100%;
+    }
+
+    section.intro::before {
+
+        background-image: url("https://cdn.pixabay.com/photo/2016/11/18/15/05/beach-1835213_1280.jpg");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 114%;
+        z-index: -1;
+        opacity: 0.6;
+    }
+
+    .cont {
+        height: 655px;
+    }
+
+    .cont p {
+        width: 53%;
+        padding-top: 83px;
+        padding-left: 52px;
+        font-size: 20px;
+        color: black;
+        font-weight: bold;
+    }
+
+    .cont2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 50px;
+    }
+
+
+    footer {
+        display: flex;
+        height: 5vh;
+        background-color: black;
+        color: white;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+    }
+</style>
+
+
+<body>
+
+    <div class="main">
+        <header class="header">
+
+            <!-- left box for logo -->
+            <div class="lft">
+                <img src="/static/images-removebg.png" alt="">
+                <div>Abhi's Yoga</div>
+            </div>
+
+            <!-- mid for navigation -->
+            <div class="mid">
+                <ul class="navbar">
+                    <li><a href="/">Home</a></li>
+                    <!-- <li><a href="#">About Us</a></li> -->
+                    <li><a href="/contact" >Contact us</a></li>
+                    <li><a href="/fcalci">Fitness Calculator</a></li>
+                </ul>
+            </div>
+
+            <!-- right box for buttons -->
+            <div class="right">
+                <button class="btn">Call us now</button><button class="btn">Email us</button>
+            </div>
+        </header>
+
+        <section class="intro">
+            <!-- <div class="img">
+                <img src="https://cdn.pixabay.com/photo/2016/11/18/15/05/beach-1835213_1280.jpg" alt="">
+            </div> -->
+            <div class="cont">
+                <p>
+                    Without a doubt, yoga is great for your body. It helps increase flexibility, strengthen and tones
+                    your muscles, improves circulatory health, and promotes deeper breathing patterns. No wonder so many
+                    people are flocking to their nearest yoga studio.
+                    But what if you can’t make it to the studio? These virtual yoga classes help develop core strength,
+                    increase flexibility, improve posture, boost energy, and increase the mind-body connection. And
+                    regardless of your fitness level—beginner, intermediate, or fitness fanatic—there’s a mat waiting
+                    for you in one of these online classes.
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        Copyright &copy; 2021 - All rights reserved by AbhisYoga.in
+    </footer>
+</body>
+
+
+</html>
